@@ -1,0 +1,129 @@
+#6 Buchstaben (9)
+-> Punkt pro herausgefundenes Wort: 5
+-> Punkteabzug pro abgefragter Tip: 3
+-> Punktabzug pro Lösungsanzeige: 10
+1) Eigelb
+- Es ist essbar
+- Es kommt vom Huhn
+2) Bagger
+- Es ist eine Maschine
+- Sie braucht einen Chauffeur
+3) Radweg
+- Es ist eine spezielle Art von Strasse
+- Sie wird gebraucht von Velofahrern
+4) Palmen
+- Es ist eine Pflanze
+- Sie wird typischerweise auf einer einsamen Insel im Ozean, oder am Strand gezeichnet
+5) Vulkan
+- Der Ätna ist einer von ihnen
+- Stichwort Krater, Magma, Lava
+6) Salami
+- Es ist essbar
+- Es ist ein Fleischprodukt
+7) Montag
+- Es ist ein Wochentag
+- Er beginnt mit M
+8) Dattel
+- Es ist essbar
+- Es ist eine Frucht, die einen Stein in ihrem Innern hat
+9) Ingwer
+- Es wird oft als Shot getrunken
+- Es ist eine Pflanzenart
+10) Indien
+- Es ist ein Land
+- Es liegt in Asien
+11) Berlin
+- Es ist eine Ortschaft
+- Es ist die Hauptstadt von Deutschland
+
+#9 Buchstaben (12)
+-> Punkt pro herausgefundenes Wort: 8
+-> Punkteabzug pro abgefragter Tip: 3
+-> Punktabzug pro Lösungsanzeige: 5
+1) Abendmahl
+- Es ist eine Mahlzeit
+- Es war das letzte feierliche Essen, das Jesus vor seinem Tod mit seinen 12 Aposteln gegessen hat
+2) Ackerland
+- Es ist Teil der Landwirtschaft
+- Es ist eine bestimmte Fläche
+3) Backwaren
+- Es ist der Oberbegriff einer bestimmten Lebensmittelgruppe
+- Diese werden meisten von Bäckereien/Konditoreien hergestellt
+4) Badewanne
+- Es ist oft in einem Haus/Wohnung eingebaut
+- Es wird für die Körperhygiene benutzt
+5) Badminton
+- Es ist eine Sportart
+- Das dazugehörige Spielobjekt wird Shuttle genannt
+6) Charakter
+- Es bildet das moralische Verhalten eines Menschen
+- Eigenschaften davon können z.B. spontan, herzlich oder ernst sein
+7) Dachboden
+- Es wird oft als Abstellplatz benutzt
+- Es befindet sich im Haus ganz zuoberst
+8) Dschungel
+- Es ist ein dichter, undurchdringbarer Wald
+- Er befindet sich in den Tropen
+9) Ehegattin
+- Es ist eine Person
+- Es ist eine Person, die verheiratet ist
+10) Eisenbahn
+- Es ist ein Verkehrsmittel
+- Es fährt auf Schienen
+11) Eiszapfen
+- Es besteht aus Wasser
+- Es hat den Aggregatzustand fest
+12) Federkohl
+- Es ist ein Gemüse
+- Es ist auch als Grünkohl, Krauskohl oder Kale bekannt
+13) Tierschau
+- Es wird oft von einem Zirkus veranstaltet
+- Es ist eine Ausstellung von Tieren
+14) Schachtel
+- Es ist ein dreidimensionales Objekt
+- Es kann durch einen Deckel geschlossen werden
+
+#12 Buchstaben (6)
+-> Punkt pro herausgefundenes Wort: 15
+-> Punkteabzug pro abgefragter Tip: 3
+-> Punkteabzug pro Lösungsanzeige: 5
+
+1) Abblendlicht
+- Es wird bei Dämmerung und Dunkelheit benutzt
+- Es ist ein bestimmtes Licht
+2) Beifallsrufe
+- Es ist ein Zeichen der Wertschätzung
+- Es erfolgt oft während eines Applauses
+3) Beispielsatz
+- Es wird gebraucht, um eine Sache verständlicher darzustellen
+- Es kann entweder mündlich oder schriftlich widergegeben werden
+4) Berufsunfall
+- Es ist ein Ereignis, das während der Arbeit passiert
+- In der Schweiz ist jeder Arbeitnehmer dagegen versichert
+5) Dachterrasse
+- Es ist eine bestimmte Fläche und gehört zu einem Haus/Wohnung
+- Sie befindet sich zuoberst auf einem Gebäude
+6) Daumenmuskel
+- Es ist ein bestimmtes Organ eines menschlichen Körper
+- Es befindet sich an der Hand
+7) Fahrradkette
+- Es wird benötigt für den Antrieb eines bestimmten Fahrzeuges
+- Das Fahrzeug wird durch Muskelkraft angetrieben
+8) Panoramabild
+- Es ist eine grafische Darstellung
+- Meistens ist diese breiter als andere Fotos
+
+
+
+
+Noch zu erledigen:
+- modale Fenster
+    - Levelaufstieg
+    - Korrekte Antwort
+    - Falsche Antwort
+    - Lösungsanzeige wenn Lösung angezeigt werden soll
+    - Spielende
+- Ansprechenderes/hochstehenderes Design
+
+Notizen:
+- nicht mehr mit if key7.isVisible == false arbeiten, sondern mit if level == 1
