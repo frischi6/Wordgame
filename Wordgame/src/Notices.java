@@ -6,6 +6,10 @@ public class Notices {
     Notices() {
 
         /*Nutzung von LocalTime
+         *faskfdkasfdlä
+         * ksjdfhlashfdä
+         * jfashfdhkas
+         * skfhasö
          *
          * Mit Anwendung dieser Methodik, kann eine Aktion für eine bestimmte Zeit ausgeführt werden
          */
