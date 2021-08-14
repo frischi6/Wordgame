@@ -5,14 +5,7 @@ public class Notices {
 
     Notices() {
 
-        /*Nutzung von LocalTime
-         *faskfdkasfdlä
-         * ksjdfhlashfdä
-         * jfashfdhkas
-         * skfhasö
-         *
-         * test 333
-         *
+        /* Nutzung von LocalTime
          * Mit Anwendung dieser Methodik, kann eine Aktion für eine bestimmte Zeit ausgeführt werden
          */
         java.time.LocalTime start = java.time.LocalTime.now();

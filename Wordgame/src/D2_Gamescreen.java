@@ -473,7 +473,8 @@ public class D2_Gamescreen extends JFrame {
                 tipCounter = 0;
                 tipButton.setEnabled(true);
 
-                modalWindows.correctAnswerModal();
+                modalWindows.gameFinishedModal(getJFrame());
+                //modalWindows.correctAnswerModal();
                 //modales Fenster -  Ihre Antwort ist korrekt!
 
                 //Punkteverteilung

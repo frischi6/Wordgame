@@ -31,7 +31,7 @@ public class ModalWindows {
         buttonPanel = new JPanel(new GridLayout());
         buttonPanel.add(gotIt);
 
-        background = new JLabel(new ImageIcon("Wordgame/background_watercolour.jpg"));//Hintergrundbild
+        background = new JLabel(new ImageIcon("Wordgame/background_modal.jpg"));//Hintergrundbild
         background.setLayout(new BorderLayout());
         background.add(content, BorderLayout.CENTER);
         background.add(buttonPanel, BorderLayout.SOUTH);
@@ -70,11 +70,15 @@ public class ModalWindows {
     // zwei eigene Buttons inkl. Listener erstellen
     public void gameFinishedModal(JFrame jFrame) {
         mainFrame = jFrame;
+        gotIt = null;
+
         JButton newGame = new JButton("Erneut spielen");
         newGame.addActionListener(new playAgainButtonListener());
-        gotIt.setText("Spiel beenden");
+        JButton finishGame = new JButton("Spiel beenden");
+        finishGame.addActionListener(new finishGameListener());
 
         this.buttonPanel.add(newGame);
+        this.buttonPanel.add(finishGame);
         this.content.setText("<html>Gratulation, du hast es geschafft!!<br><br>Das Spiel ist beendet, auf Wiedersehen!</html>");
         currentJDialog.setVisible(true);
     }
@@ -98,6 +102,15 @@ public class ModalWindows {
             currentJDialog.dispose();
             mainFrame.dispose();
             WordgameGUI gui = new WordgameGUI();
+            gui.d2Gamescreen(1,1,0);
+        }
+    }
+
+    class finishGameListener implements ActionListener{
+
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            System.exit(0);
         }
     }
 
